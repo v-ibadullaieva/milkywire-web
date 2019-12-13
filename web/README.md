@@ -1,0 +1,1 @@
+I used antd UI library for quick prototyping, typescript for typechecking.
