@@ -66,7 +66,7 @@ fastify.get("/posts/:id", async (request, reply) =>
 );
 
 fastify.put("/posts/:id", async (request, reply) => {
-  const postIndex = posts.findIndex(post => post.id === request.params.id);
+  const postIndex = posts.findIndex(post => post.id === parseInt(request.params.id));
   const post = posts[postIndex];
   const updatedPost = {
     ...post,
@@ -77,9 +77,9 @@ fastify.put("/posts/:id", async (request, reply) => {
 });
 
 fastify.delete("/posts/:id", async (request, reply) => {
-  const postIndex = posts.findIndex(post => post.id === request.params.id);
-  posts.splice(postIndex, 1);
-  return;
+  // const postIndex = posts.findIndex(post => post.id === request.params.id);
+  posts.splice(request.params.id, 1);
+  return null;
 });
 
 fastify.post("/upload", async function(request, reply) {

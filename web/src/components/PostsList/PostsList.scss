@@ -1,0 +1,24 @@
+.List {
+  .ant-list-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .ant-card-cover img {
+    height: 160px;
+    object-fit: cover;
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .ant-card-extra {
+    width: 100%;
+
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

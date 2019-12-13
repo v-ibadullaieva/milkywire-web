@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditForm component Matches the snapshot 1`] = `
+<form
+  className="ant-form ant-form-horizontal"
+  onSubmit={[Function]}
+>
+  <span
+    className="ant-upload-picture-card-wrapper"
+  >
+    <div
+      className="ant-upload ant-upload-select ant-upload-select-picture-card"
+    >
+      <span
+        className="ant-upload"
+        onClick={[Function]}
+        onDragOver={[Function]}
+        onDrop={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <input
+          accept=""
+          directory={null}
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          type="file"
+          webkitdirectory={null}
+        />
+        <img
+          alt="avatar"
+          src="https://picsum.photos/id/0/5616/3744"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </span>
+    </div>
+  </span>
+  <div
+    className="ant-row ant-form-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-col ant-form-item-label"
+      style={Object {}}
+    >
+      <label
+        className="ant-form-item-required"
+        htmlFor="EditForm_description"
+        onClick={[Function]}
+        title="Description"
+      >
+        Description
+      </label>
+    </div>
+    <div
+      className="ant-col ant-form-item-control-wrapper"
+      style={Object {}}
+    >
+      <div
+        className="ant-form-item-control has-success"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <textarea
+            className="ant-input"
+            data-__field={
+              Object {
+                "dirty": false,
+                "errors": undefined,
+                "name": "description",
+                "validating": false,
+                "value": "lol",
+              }
+            }
+            data-__meta={
+              Object {
+                "initialValue": "lol",
+                "name": "description",
+                "originalProps": Object {
+                  "placeholder": "Enter description",
+                  "type": "description",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter description",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter description",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            id="EditForm_description"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Enter description"
+            style={Object {}}
+            type="description"
+            value="lol"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-row ant-form-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-col ant-form-item-label"
+      style={Object {}}
+    >
+      <label
+        className="ant-form-item-required"
+        htmlFor="EditForm_mediaDescription"
+        onClick={[Function]}
+        title="Media description"
+      >
+        Media description
+      </label>
+    </div>
+    <div
+      className="ant-col ant-form-item-control-wrapper"
+      style={Object {}}
+    >
+      <div
+        className="ant-form-item-control has-success"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <textarea
+            className="ant-input"
+            data-__field={
+              Object {
+                "dirty": false,
+                "errors": undefined,
+                "name": "mediaDescription",
+                "validating": false,
+                "value": "Alejandro Escamilla",
+              }
+            }
+            data-__meta={
+              Object {
+                "initialValue": "Alejandro Escamilla",
+                "name": "mediaDescription",
+                "originalProps": Object {
+                  "placeholder": "Enter media description",
+                  "type": "mediaDescription",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter media description",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter media description",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            id="EditForm_mediaDescription"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Enter media description"
+            style={Object {}}
+            type="mediaDescription"
+            value="Alejandro Escamilla"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-row ant-form-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-col ant-form-item-label"
+      style={Object {}}
+    >
+      <label
+        className="ant-form-item-required"
+        htmlFor="EditForm_width"
+        onClick={[Function]}
+        title="Media width"
+      >
+        Media width
+      </label>
+    </div>
+    <div
+      className="ant-col ant-form-item-control-wrapper"
+      style={Object {}}
+    >
+      <div
+        className="ant-form-item-control has-success"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <input
+            className="ant-input"
+            data-__field={
+              Object {
+                "dirty": false,
+                "errors": undefined,
+                "name": "width",
+                "validating": false,
+                "value": 5616,
+              }
+            }
+            data-__meta={
+              Object {
+                "initialValue": 5616,
+                "name": "width",
+                "originalProps": Object {
+                  "placeholder": "Enter media width",
+                  "type": "width",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter media width",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter media width",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            id="EditForm_width"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Enter media width"
+            type="width"
+            value={5616}
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-row ant-form-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-col ant-form-item-label"
+      style={Object {}}
+    >
+      <label
+        className="ant-form-item-required"
+        htmlFor="EditForm_height"
+        onClick={[Function]}
+        title="Media height"
+      >
+        Media height
+      </label>
+    </div>
+    <div
+      className="ant-col ant-form-item-control-wrapper"
+      style={Object {}}
+    >
+      <div
+        className="ant-form-item-control has-success"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <input
+            className="ant-input"
+            data-__field={
+              Object {
+                "dirty": false,
+                "errors": undefined,
+                "name": "height",
+                "validating": false,
+                "value": 3744,
+              }
+            }
+            data-__meta={
+              Object {
+                "initialValue": 3744,
+                "name": "height",
+                "originalProps": Object {
+                  "placeholder": "Enter media height",
+                  "type": "height",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter media height",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter media height",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            id="EditForm_height"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Enter media height"
+            type="height"
+            value={3744}
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-row ant-form-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-col ant-form-item-label"
+      style={Object {}}
+    >
+      <label
+        className="ant-form-item-required"
+        htmlFor="EditForm_version"
+        onClick={[Function]}
+        title="Media version"
+      >
+        Media version
+      </label>
+    </div>
+    <div
+      className="ant-col ant-form-item-control-wrapper"
+      style={Object {}}
+    >
+      <div
+        className="ant-form-item-control has-success"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <input
+            className="ant-input"
+            data-__field={
+              Object {
+                "dirty": false,
+                "errors": undefined,
+                "name": "version",
+                "validating": false,
+                "value": "2019-03-14",
+              }
+            }
+            data-__meta={
+              Object {
+                "initialValue": "2019-03-14",
+                "name": "version",
+                "originalProps": Object {
+                  "placeholder": "Enter media version",
+                  "type": "version",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter media version",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter media version",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            id="EditForm_version"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Enter media version"
+            type="version"
+            value="2019-03-14"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-row ant-form-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-col ant-form-item-control-wrapper"
+      style={Object {}}
+    >
+      <div
+        className="ant-form-item-control"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <button
+            className="ant-btn ant-btn-primary"
+            disabled={true}
+            onClick={[Function]}
+            type="submit"
+          >
+            <span>
+              Update
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post component Matches the snapshot 1`] = `
+<div>
+  <div
+    className="LinksWrap"
+  >
+    <span
+      className="Link"
+    >
+      go to prev
+    </span>
+    <span
+      className="Link"
+    >
+      go to next
+    </span>
+  </div>
+  <div
+    className="ant-card ant-card-bordered"
+  >
+    <div
+      className="ant-card-cover"
+    >
+      <img
+        alt="img"
+        src="https://picsum.photos/id/0/5616/3744"
+      />
+    </div>
+    <div
+      className="ant-card-body"
+      style={Object {}}
+    >
+      <p>
+        lol
+      </p>
+      <p>
+        <b>
+          version:
+        </b>
+         
+        2019-03-14
+      </p>
+      <p>
+        <b>
+          size:
+        </b>
+         
+        5616
+         x 
+        3744
+      </p>
+    </div>
+  </div>
+</div>
+`;

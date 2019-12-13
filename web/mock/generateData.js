@@ -63,6 +63,7 @@ async function createPosts(impacters, numberOfPostsPerImpacter) {
       try {
         const { download_url, width, height, author } = images[index];
         result.push({
+          id: result.length,
           type: "IMAGES",
           description: loremIpsum({ count: 10, units: "word" }),
           data: {
